@@ -1,5 +1,7 @@
 # VictoriaMetrics / Prometheus
 
+[![Release](https://github.com/labdex-app/labdex-plugin-victoriametrics/actions/workflows/release.yml/badge.svg)](https://github.com/labdex-app/labdex-plugin-victoriametrics/actions/workflows/release.yml) [![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-bitsandbricks-7c3aed?logo=buymeacoffee&logoColor=white&labelColor=181b20)](https://buymeacoffee.com/bitsandbricks)
+
 A [labdex](https://github.com/labdex-app/labdex) plugin. Host status from the `up` metric (down when every target of a host is down), plus CPU and memory from node_exporter for the host page. Works with VictoriaMetrics and Prometheus (the Prometheus query API).
 
 **Version** 1.0 · **Works with** labdex >=1.3,<2 · **Plugin id** `victoriametrics`
